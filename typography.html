@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/fontawesome/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Leftside Navbar</title>
+    <link rel="stylesheet" type="text/css" href="css/slimscroll.css" />
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- Left Sidebar Menu Start  -->
+        <nav class="postion-fixed slimScroll" id="sidebar">
+            <!-- Company Name start  -->
+            <div class="sidebar-header">
+                <h4 class="mt-2">Admin</h4>
+                <strong>As</strong>
+            </div>
+            <!-- Company Name End  -->
+
+            <!--   User Image and Name start  -->
+            <!-- <div class="sidebar-profile d-flex p-2">
+                <img src="image/img_avatar.png" class="img-fluid" width="50px" alt="Profile picture">
+                <p class="profile-name mt-2 ml-2 mb-0 text-dark">Nirav Mistry</p>
+            </div> -->
+            <!--   User Image and Name End  -->
+
+            <!--  left-side Menu list star  -->
+            <ul class="list-unstyled slimScrollDiv">
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-home"></i>
+                        <span class="nav-text">Dashboard</span>
+                    </a>
+                    <ul class="collapse list-unstyled submenu-hover" id="homeSubmenu">
+                        <li>
+                            <a href="index.html">Dashboard 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Dashboard 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Dashboard 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-table"></i>
+                        <span class="nav-text">Table</span>
+                    </a>
+                    <ul class="collapse list-unstyled submenu-hover" id="pageSubmenu">
+                        <li>
+                            <a href="bootstraptable.html">Bootstrap Table</a>
+                        </li>
+                        <li>
+                            <a href="data-table.html">Data Table</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#FormMenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="ti-pencil-alt"></i>
+                        <span class="nav-text">Form</span>
+                    </a>
+                    <ul class="collapse list-unstyled submenu-hover" id="FormMenu">
+                        <li>
+                            <a href="form-basic.html">Basic Input</a>
+                        </li>
+                        <li>
+                            <a href="boostrap-form.html">Bootstrap Form</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="alert.html">
+                        <i class="far fa-bell"></i>
+                        <span class="nav-text">Alert </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="badge.html">
+                        <i class="fas fa-certificate"></i>
+                        <span class="nav-text">Badge </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="breadcrumb.html">
+                        <i class="fas fa-greater-than"></i>
+                        <span class="nav-text">Breadcrumb </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#Button" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-shapes"></i>
+                        <span class="nav-text">Buttons</span>
+                    </a>
+                    <ul class="collapse list-unstyled submenu-hover" id="Button">
+                        <li>
+                            <a href="buttons.html">Buttons</a>
+                        </li>
+                        <li>
+                            <a href="button-group.html">Button group</a>
+                        </li>
+                        <li>
+                            <a href="dropdowns.html">
+                                Dropdowns
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="cards.html">
+                        <i class="far fa-id-card"></i>
+                        <span class="nav-text">Cards</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="carousel.html">
+                        <i class="ti-image"></i>
+                        <span class="nav-text">Carousel</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="collapse.html">
+                        <i class="fas fa-compress"></i>
+                        <span class="nav-text">Collapse</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="jumbotron.html">
+                        <i class="fas fa-expand"></i>
+                        <span class="nav-text">Jumbotron</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="list-group.html">
+                        <i class="fas fa-users"></i>
+                        <span class="nav-text">List Group</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="media-object.html">
+                        <i class="fab fa-medium"></i>
+                        <span class="nav-text">Media Object</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="modal.html">
+                        <i class="fab fa-flickr"></i>
+                        <span class="nav-text">Modal</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="typography.html">
+                        <i class="fas fa-font"></i>
+                        <span class="nav-text">Typography</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="navs.html">
+                        <i class="fas fa-route"></i>
+                        <span class="nav-text">Navs</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="navbar.html">
+                        <i class="fas fa-bars"></i>
+                        <span class="nav-text">Navbar</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="pagination.html">
+                        <i class="fas fa-pager"></i>
+                        <span class="nav-text">Pagination</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="popovers.html">
+                        <i class="far fa-comment-alt"></i>
+                        <span class="nav-text">Popovers</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="progress.html">
+                        <i class="fas fa-snowflake"></i>
+                        <span class="nav-text">Progress</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="scrollspy.html">
+                        <i class="fas fa-scroll"></i>
+                        <span class="nav-text">Scrollspy</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="spinners.html">
+                        <i class="fas fa-spinner"></i>
+                        <span class="nav-text">Spinners</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="toasts.html">
+                        <i class="far fa-comment"></i>
+                        <span class="nav-text">Toasts</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="tooltips.html">
+                        <i class="fas fa-campground"></i>
+                        <span class="nav-text">Tooltips</span>
+                    </a>
+                </li>
+            </ul>
+            <!--  left-side Menu list End  -->
+
+        </nav>
+        <!-- Left Sidebar Menu End  -->
+
+        <section class="theme-panel theme-panel-lg">
+            <a href="javascript:(0);" id="rightcollapse" class="theme-collapse-btn"><i
+                    class="fa fa-cog spinner"></i></a>
+            <div class="theme-panel-content">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="mb-3 text-dark">Theme Mode</h5>
+                        <ul class="theme-list clearfix">
+                            <li class="">
+                                <a class="boder-radius-50 mr-2"><i
+                                        class="fas fa-1x fa-circle text-dark drop-shadow"></i> <span
+                                        class="ml-2">Dark</span></a>
+                                <a class="boder-radius-50"><i class="fas fa-1x fa-circle text-light drop-shadow"></i>
+                                    <span class="ml-2">Light</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="text-dark">Theme Color</h5>
+                        <ul class="theme-list clearfix">
+                            <li class="">
+                                <a class="mr-2"><i class="fas fa-3x fa-square text-info"></i></a>
+                                <a class="mr-2"><i class="fas fa-3x fa-square text-danger"></i></a>
+                                <a class="mr-2"><i class="fas fa-3x fa-square text-success"></i></a>
+                                <a class="mr-2"><i class="fas fa-3x fa-square text-primary"></i></a>
+                                <a onclick="setTheme(2)"><i class="fas fa-3x fa-square text-secondary"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="text-dark">Navbar Color</h5>
+                        <ul class="theme-list clearfix">
+                            <li class="">
+                                <a class="mr-2"><i class="fas fa-3x fa-square text-info"></i></a>
+                                <a class="mr-2"><i class="fas fa-3x fa-square text-danger"></i></a>
+                                <a class="mr-2"><i class="fas fa-3x fa-square text-success"></i></a>
+                                <a class="mr-2"><i class="fas fa-3x fa-square text-primary"></i></a>
+
+                                <a onclick="setTheme(2)"><i class="fas fa-3x fa-square text-secondary"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Page Content  -->
+        <div id="content" class="content-toggle-open mb-3">
+            <!-- TopNav Bar start -->
+            <div class="topbar  sticky-top ">
+                <nav class="navbar navbar-expand navbar-light topbar shadow-sm">
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <ul class="navbar-nav ml-auto scrollbar-inner">
+                        <!-- Nav Item - Alerts -->
+                        <li class="nav-item dropdown hidearrow mx-1 mt-auto">
+                            <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-bell fa-fw"></i>
+                                <!-- Counter - Alerts -->
+                                <span class="badge badge-danger badge-counter">3+</span>
+                            </a>
+                            <!-- Dropdown - Alerts -->
+                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="alertsDropdown">
+                                <h6 class="dropdown-header">
+                                    Alerts Center
+                                </h6>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-primary">
+                                            <i class="fas fa-file-alt text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">December 12, 2019</div>
+                                        <span class="font-weight-bold">A new monthly report is ready to
+                                            download!</span>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-success">
+                                            <i class="fas fa-donate text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">December 7, 2019</div>
+                                        $290.29 has been deposited into your account!
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="mr-3">
+                                        <div class="icon-circle bg-warning">
+                                            <i class="fas fa-exclamation-triangle text-white"></i>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="small text-gray-500">December 2, 2019</div>
+                                        Spending Alert: We've noticed unusually high spending for your account.
+                                    </div>
+                                </a>
+                                <a class="dropdown-item text-center small text-gray-500" href="#">Show All
+                                    Alerts</a>
+                            </div>
+                        </li>
+                        <!-- Nav Item - Messages -->
+                        <li class="nav-item dropdown hidearrow mx-1 mt-auto">
+                            <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-envelope fa-fw"></i>
+                                <!-- Counter - Messages -->
+                                <span class="badge badge-danger badge-counter">7</span>
+                            </a>
+                            <!-- Dropdown - Messages -->
+                            <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                                aria-labelledby="messagesDropdown">
+                                <h6 class="dropdown-header">
+                                    Message Center
+                                </h6>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="dropdown-list-image mr-3">
+                                        <img class="rounded-circle" src="https://source.unsplash.com/fn_BT9fwg_E/60x60"
+                                            alt="">
+                                        <div class="status-indicator bg-success"></div>
+                                    </div>
+                                    <div class="font-weight-bold">
+                                        <div class="text-truncate">Hi there! I am wondering if you can help me with a
+                                            problem I've been having.</div>
+                                        <div class="small text-gray-500">Emily Fowler · 58m</div>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="dropdown-list-image mr-3">
+                                        <img class="rounded-circle" src="https://source.unsplash.com/AU4VPcFN4LE/60x60"
+                                            alt="">
+                                        <div class="status-indicator"></div>
+                                    </div>
+                                    <div>
+                                        <div class="text-truncate">I have the photos that you ordered last month, how
+                                            would you like them sent to you?</div>
+                                        <div class="small text-gray-500">Jae Chun · 1d</div>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="dropdown-list-image mr-3">
+                                        <img class="rounded-circle" src="https://source.unsplash.com/CS2uCrpNzJY/60x60"
+                                            alt="">
+                                        <div class="status-indicator bg-warning"></div>
+                                    </div>
+                                    <div>
+                                        <div class="text-truncate">Last month's report looks great, I am very happy with
+                                            the progress so far, keep up the good work!</div>
+                                        <div class="small text-gray-500">Morgan Alvarez · 2d</div>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <div class="dropdown-list-image mr-3">
+                                        <img class="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60"
+                                            alt="">
+                                        <div class="status-indicator bg-success"></div>
+                                    </div>
+                                    <div>
+                                        <div class="text-truncate">Am I a good boy? The reason I ask is because someone
+                                            told me that people say this to all dogs, even if they aren't good...
+                                        </div>
+                                        <div class="small text-gray-500">Chicken the Dog · 2w</div>
+                                    </div>
+                                </a>
+                                <a class="dropdown-item text-center small text-gray-500" href="#">Read More
+                                    Messages</a>
+                            </div>
+                        </li>
+                        <div class="topbar-divider d-none d-sm-block"></div>
+                        <!-- Nav Item - User Information -->
+                        <li class="nav-item dropdown hidearrow">
+                            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="mr-2 d-none d-lg-inline small">Valerie Luna</span>
+                                <img class="img-profile rounded-circle" src="image/img_avatar.png">
+                            </a>
+                            <!-- Dropdown - User Information -->
+                            <div class="dropdown-menu dropdown-menu-right userdropdownmenu shadow animated--grow-in"
+                                aria-labelledby="userDropdown">
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i> Profile
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i> Settings
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i> Activity Log
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- TopNav Bar End -->
+            <!-- Main Section start -->
+            <!-- <section class="container-fluid  shadow-sm">
+                <div class="row">
+                    <div class="col-12">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb pl-0">
+                                <li class="breadcrumb-item"><a href="#"><i class="ti-home"></i></a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Library</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </section> -->
+
+            <section class="container-fluid">
+
+                <div class="row">
+                    <div class="col-12 col-md-6 col-sm-6 col-lg-6 mb-2">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h1>h1. Bootstrap heading</h1>
+                                <h2>h2. Bootstrap heading</h2>
+                                <h3>h3. Bootstrap heading</h3>
+                                <h4>h4. Bootstrap heading</h4>
+                                <h5>h5. Bootstrap heading</h5>
+                                <h6>h6. Bootstrap heading</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-sm-6 col-lg-6 mb-2">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h1 class="display-1">Display 1</h1>
+                                <h1 class="display-2">Display 2</h1>
+                                <h1 class="display-3">Display 3</h1>
+                                <h1 class="display-4">Display 4</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12  mb-2">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <p>You can use the mark tag to <mark>highlight</mark> text.</p>
+                                <p><del>This line of text is meant to be treated as deleted text.</del></p>
+                                <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+                                <p><ins>This line of text is meant to be treated as an addition to the document.</ins>
+                                </p>
+                                <p><u>This line of text will render as underlined</u></p>
+                                <p><small>This line of text is meant to be treated as fine print.</small></p>
+                                <p><strong>This line rendered as bold text.</strong></p>
+                                <p><em>This line rendered as italicized text.</em></p>
+                                <p><abbr title="attribute">attr</abbr></p>
+                                <p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12  mb-2">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                                        posuere erat a ante.</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12  mb-2">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <blockquote class="blockquote">
+                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                                        posuere erat a ante.</p>
+                                    <footer class="blockquote-footer">Someone famous in <cite
+                                            title="Source Title">Source Title</cite></footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12  mb-2">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <blockquote class="blockquote text-center">
+                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                                        posuere erat a ante.</p>
+                                    <footer class="blockquote-footer">Someone famous in <cite
+                                            title="Source Title">Source Title</cite></footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12  mb-2">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <blockquote class="blockquote text-right">
+                                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                                        posuere erat a ante.</p>
+                                    <footer class="blockquote-footer">Someone famous in <cite
+                                            title="Source Title">Source Title</cite></footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-sm-6 col-lg-6 mb-2">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <ul class="list-unstyled">
+                                    <li>Lorem ipsum dolor sit amet</li>
+                                    <li>Consectetur adipiscing elit</li>
+                                    <li>Integer molestie lorem at massa</li>
+                                    <li>Facilisis in pretium nisl aliquet</li>
+                                    <li>Nulla volutpat aliquam velit
+                                        <ul>
+                                            <li>Phasellus iaculis neque</li>
+                                            <li>Purus sodales ultricies</li>
+                                            <li>Vestibulum laoreet porttitor sem</li>
+                                            <li>Ac tristique libero volutpat at</li>
+                                        </ul>
+                                    </li>
+                                    <li>Faucibus porta lacus fringilla vel</li>
+                                    <li>Aenean sit amet erat nunc</li>
+                                    <li>Eget porttitor lorem</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-sm-6 col-lg-6 mb-2">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">Lorem ipsum</li>
+                                    <li class="list-inline-item">Phasellus iaculis</li>
+                                    <li class="list-inline-item">Nulla volutpat</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-sm-6 col-lg-6 mb-2">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <dl class="row">
+                                    <dt class="col-sm-3">Description lists</dt>
+                                    <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
+
+                                    <dt class="col-sm-3">Euismod</dt>
+                                    <dd class="col-sm-9">
+                                        <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec
+                                            elit.</p>
+                                        <p>Donec id elit non mi porta gravida at eget metus.</p>
+                                    </dd>
+
+                                    <dt class="col-sm-3">Malesuada porta</dt>
+                                    <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+
+                                    <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+                                    <dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                                        condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+
+                                    <dt class="col-sm-3">Nesting</dt>
+                                    <dd class="col-sm-9">
+                                        <dl class="row">
+                                            <dt class="col-sm-4">Nested definition list</dt>
+                                            <dd class="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue
+                                                blandit nunc.</dd>
+                                        </dl>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Main Section End -->
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="js/chart.js"></script>
+    <script src="js/custom-chart.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.slimscroll.min.js"></script>
+    <script src="js/slimscroll.js"></script>
+    <script>
+        window.onload = function () {
+            if (!navigator.userAgent.match('Macintosh')) {
+                var element = document.querySelectorAll('.slimScroll');
+
+
+                // Apply slim scroll plugin
+                var one = new slimScroll(element[0], {
+                    'wrapperClass': 'scroll-wrapper unselectable mac',
+                    'scrollBarContainerClass': 'scrollBarContainer',
+                    'scrollBarContainerSpecialClass': 'animate',
+                    'scrollBarClass': 'scroll',
+                    'keepFocus': true
+                });
+                // resize example
+                // To make the resizing work, set the height of the container in PERCENTAGE
+                window.onresize = function () {
+                    one.resetValues();
+                    two.resetValues();
+                    three.resetValues();
+                }
+            }
+            else {
+                document.write("For Mac users, this custom slimscroll styles will not be applied");
+            }
+        }
+    </script>
+
+    <script>
+
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+</body>
+
+</html>

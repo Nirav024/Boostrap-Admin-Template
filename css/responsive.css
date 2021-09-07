@@ -1,0 +1,94 @@
+@media (max-width: 768px) {
+
+    #sidebar.active {
+        margin-left: 0 !important;
+    }
+
+
+    #sidebar ul li a span {
+        font-size: 0.85em;
+    }
+
+    #sidebar ul li a i {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        z-index: 3;
+        position: relative;
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    #sidebar.active ul li a i {
+        font-size: 1.2em;
+    }
+
+    #sidebarCollapse.open span:nth-child(1) {
+        transform: rotate(45deg);
+        top: 2px;
+        left: 8px;
+    }
+
+    .dropdown-toggle::after {
+        font-size: 0.9em;
+    }
+
+    #sidebarCollapse {
+        width: 24px;
+        height: 20px;
+    }
+
+    #sidebar {
+        margin-left: 0;
+        margin-top: 54px;
+    }
+
+    #content {
+        margin-left: 65px;
+        margin-top: 64px;
+
+    }
+
+    .topbar {
+        position: fixed;
+        height: 54px;
+        z-index: 30;
+        top: 0;
+    }
+
+    .postion-fixed.active .auto-scroll {
+        overflow-y: inherit;
+        height: calc(100% - 124px);
+    }
+
+    .postion-fixed .auto-scroll {
+        overflow-y: auto;
+        height: calc(100% - 124px);
+    }
+
+    .topbar .dropdown .dropdown-menu.userdropdownmenu,
+    .topbar .dropdown .dropdown-menu {
+        top: inherit;
+    }
+
+}
+
+@media (min-width: 576px) {
+    .topbar .dropdown {
+        position: relative;
+    }
+
+    .topbar .dropdown .dropdown-menu {
+        width: auto;
+        right: 0;
+    }
+
+
+    .topbar .dropdown-list {
+        width: 20rem !important;
+    }
+
+    .topbar .dropdown-list .dropdown-item .text-truncate {
+        max-width: 13.375rem;
+    }
+}
